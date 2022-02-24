@@ -1,0 +1,13 @@
+.amount,.yield{
+    width: 50px;
+}
+.name{
+    width: 200px;
+}
+#specific_gravity{
+    font-weight: bold;
+}
+body{
+    background-color: aliceblue;
+    color: red;
+}

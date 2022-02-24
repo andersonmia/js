@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mash it</title>
+    <link rel="stylesheet" href="./brewing.css">
+    <script src="./brewing.js"></script>
+</head>
+<body>
+    <h1>Mash-It!</h1>
+    <fieldset>
+        <legend>Malt bill:</legend>
+        <table id="malt_bill">
+            <tr>
+            <th>lbs</th>
+            <th>Grain</th>
+            <th>PPG</th>
+        </tr>
+        <tr>
+            <td><input type="number" class="amount"/></td>
+            <td><input type="text" class="name"/></td>
+            <td><input type="number" class="yield"/></td>
+        </tr>
+        <!-- new grain entry -->
+        </table>
+    </fieldset>
+    <br><br>
+    <div id="operations">
+     <button id="add_grain">Add another grain</button> 
+    <button id="calculate">calculate SG</button>
+    </div>
+    <br><br>
+    <div id="calculations">
+        Estimated Specific Gravity:
+        <span id="specific_gravity">
+            <!-- Specific Gravity result -->
+        </span><br>
+        <span class="note">(assume a 5.5 gallon batch)</span>
+    </div>
+</body>
+</html>
