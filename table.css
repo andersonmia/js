@@ -1,0 +1,13 @@
+body {
+    margin: 30px;
+    background-color: aliceblue;
+}
+table,td{
+    border: 1px double black ;
+    border-collapse: collapse;
+    background-image: linear-gradient(45deg,red,orange);
+}
+td{
+    width: 120px;
+    height: 60px;
+}
