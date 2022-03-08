@@ -39,8 +39,8 @@ function coder(word){
     
     //                                  1    a  b  c  d  e
     //                                  2    f  g  j  h  i
-    //                                  3    j  k  l  m  n 
-    //                                  4    o  p  q  r  s
-    //                                  5    t  u  w  x  y
+    //                                  3    j  l  m  n  o
+    //                                  4    p  q  r  s  t
+    //                                  5    u  w  x  y  z  
     
     coder("mia");
