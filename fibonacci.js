@@ -7,3 +7,4 @@ for(let i = 0;i < limit; i++){
     console.log("The fibonacci series is: " +next);
 }
 }
+fibonacci(8);
